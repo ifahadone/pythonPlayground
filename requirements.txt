@@ -1,9 +1,0 @@
-falcon
-falcon_multipart
-gunicorn
-numpy
-opencv-python
-pandas
-scipy
-scikit-learn
-asyncio-nats-client

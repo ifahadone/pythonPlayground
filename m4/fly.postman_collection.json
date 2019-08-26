@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "926e6a37-43ab-4e90-bb32-38f8f22140d9",
+		"name": "fly",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/fly",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/user/Desktop/falcon/7.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/fly",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"fly"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8000/fly",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/user/Desktop/falcon/flyA.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/fly",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"fly"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "229"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 01 Jul 2019 01:49:07 GMT"
+						},
+						{
+							"key": "Location",
+							"value": "a52deedf-5d37-4779-817e-d58a245c81db.jpg"
+						},
+						{
+							"key": "Server",
+							"value": "waitress"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"image URL\": \"http://localhost:8000/a52deedf-5d37-4779-817e-d58a245c81db.jpg\",\n    \"filename\": \"a52deedf-5d37-4779-817e-d58a245c81db.jpg\",\n    \"result\": \"[INFO] 284 unique segments found\",\n    \"coverage\": \"Coverage of the flies is  82.13%\"\n}"
+				}
+			]
+		}
+	]
+}
